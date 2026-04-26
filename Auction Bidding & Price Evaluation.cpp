@@ -77,6 +77,13 @@ int main() {
     bid1 = bid1 - deduction;
     cout << "\n*** After Withdrawal ***\n" << bid1;
 
+    //raise bid
+    cout << "\n*** Raise of Bid from Bidder 2 ***\n";
+    cout << "Enter amount to raise : $";
+    cin >> raise;
+    bid2.raiseBid(raise);
+    cout << "\n*** After Raising the Bid ***\n" << bid2;
+    
     //==operator — to check if bids are equal
     cout << "\n*** Comparing Both Bids ***\n";
     if (bid1 == bid2)
