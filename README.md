@@ -41,8 +41,9 @@ placeBid() function, and operator overloading through five operators: (+) to com
 all functionalities with real auction scenarios.
 
 ## SAMPLE OUTPUT
-===== AUCTION BIDDING SYSTEM =====
 ```
+===== AUCTION BIDDING SYSTEM =====
+
 FUNCTION OVERLOADING DEMO
 *** Default Bid ***
 ------------------------------
@@ -135,3 +136,5 @@ Item   : Laptop
 Amount : 1200$
 Status : Cancelled
 ------------------------------
+
+===== PROGRAM END =====
