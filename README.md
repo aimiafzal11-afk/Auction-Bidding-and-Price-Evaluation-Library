@@ -1,3 +1,7 @@
+# Auction Bidding & Price Evaluation Library
+
+A custom C++ library demonstrating Function Overloading and Operator Overloading
+
 ## Problem Statement
 Design and implement a custom C++ library (header file) based on a problem of your
 choice. Your class must demonstrate the use of function overloading and operator
