@@ -40,3 +40,98 @@ placeBid() function, and operator overloading through five operators: (+) to com
 (==) to compare bids, (>) to find the winner, and (<<) to display bid details. The library is used in main.cpp to show
 all functionalities with real auction scenarios.
 
+## SAMPLE OUTPUT
+===== AUCTION BIDDING SYSTEM =====
+```
+FUNCTION OVERLOADING DEMO
+*** Default Bid ***
+------------------------------
+Bidder : Unknown
+Item   : Unknown
+Amount : 0$
+Status : Active
+------------------------------
+
+Parameterized Bid with name and amount
+Enter your name  : Ali
+Enter bid amount : $200
+
+*** Bid with Name & Amount ***
+------------------------------
+Bidder : Ali
+Item   : General item
+Amount : 200$
+Status : Active
+------------------------------
+
+Parameterized Bid with all details
+Enter your name  : Saad
+Enter item name  : Watch
+Enter bid amount : $500
+
+*** Bid with all details ***
+------------------------------
+Bidder : Saad
+Item   : Watch
+Amount : 500$
+Status : Active
+------------------------------
+
+OPERATOR OVERLOADING DEMO
+Enter Details for Bidder 1
+Enter name   : Danial
+Enter item   : Laptop
+Enter amount : $1000
+
+*** Bidder 1 Details ***
+------------------------------
+Bidder : Danial
+Item   : Laptop
+Amount : 1000$
+Status : Active
+------------------------------
+
+Enter Details for Bidder 2
+Enter name   : Ahmed
+Enter amount : $1200
+
+*** Bidder 2 Details ***
+------------------------------
+Bidder : Ahmed
+Item   : Laptop
+Amount : 1200$
+Status : Active
+------------------------------
+
+*** Combined Bid ***
+------------------------------
+Bidder : Danial & Ahmed
+Item   : Laptop
+Amount : 2200$
+Status : Active
+------------------------------
+
+*** Partial Withdrawal from Bidder 1 ***
+Enter amount to withdraw : $100
+
+*** After Withdrawal ***
+------------------------------
+Bidder : Danial
+Item   : Laptop
+Amount : 900$
+Status : Active
+------------------------------
+
+*** Comparing Both Bids ***
+Bids are different.
+
+*** Auction Winner ***
+Winner: Ahmed with $1200!
+
+*** Cancel Bidder 2's Bid ***
+------------------------------
+Bidder : Ahmed
+Item   : Laptop
+Amount : 1200$
+Status : Cancelled
+------------------------------
