@@ -127,17 +127,28 @@ Amount : 900$
 Status : Active
 ------------------------------
 
+*** Raise of Bid from Bidder 2 ***
+Enter amount to raise : $100
+
+*** After Raising the Bid ***
+------------------------------
+Bidder : Ahmed
+Item   : Laptop
+Amount : 1300$
+Status : Active
+------------------------------
+
 *** Comparing Both Bids ***
 Bids are different.
 
 *** Auction Winner ***
-Winner: Ahmed with $1200!
+Winner: Ahmed with $1300!
 
 *** Cancel Bidder 2's Bid ***
 ------------------------------
 Bidder : Ahmed
 Item   : Laptop
-Amount : 1200$
+Amount : 1300$
 Status : Cancelled
 ------------------------------
 
