@@ -98,5 +98,7 @@ int main() {
     bid2.cancelBid();
     cout << bid2;
 
+    cout << "\n===== PROGRAM END =====\n";
+    
     return 0;
 }
